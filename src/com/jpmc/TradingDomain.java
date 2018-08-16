@@ -1,6 +1,6 @@
 package com.jpmc;
 
-public class TradeDomain {
+public class TradingDomain {
 
 	
 	private String instruction;
@@ -19,7 +19,7 @@ public class TradeDomain {
 	private String outGoingRank;
 	
 	
-	public TradeDomain(String instruction, String entity, double agreedFx, String currency, String instructionDate, String settlementDate,
+	public TradingDomain(String instruction, String entity, double agreedFx, String currency, String instructionDate, String settlementDate,
 			 int units,double pricePerUnit) {
 		super();
 		this.instruction = instruction;
