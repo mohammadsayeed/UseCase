@@ -1,5 +1,10 @@
-package com.jpmc;
+package com.jpmc.trade.model;
 
+/**
+ * TradingDomain is domain class with required attribute 
+ * @author  Mohammad Sayeed
+ * @since   8/20/2018
+ */
 public class TradingDomain {
 
 	
@@ -12,7 +17,6 @@ public class TradingDomain {
 	private double agreedFx;
 	private String currency;
 	private double usdAmountOfTrade;
-	private int rank;
 	private String inComingAmount;
 	private String outGoingAmount;
 	private String inComingRank;
@@ -83,18 +87,6 @@ public class TradingDomain {
 
 	public void setOutGoingAmount(String outGoingAmount) {
 		this.outGoingAmount = outGoingAmount;
-	}
-
-
-
-
-	public int getRank() {
-		return rank;
-	}
-
-
-	public void setRank(int rank) {
-		this.rank = rank;
 	}
 
 
